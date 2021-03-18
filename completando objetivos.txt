@@ -1,0 +1,50 @@
+Se pide:
+
+	Titulos y texto: Incluidos a lo largo de todo el documento
+
+	Tabla con letras en negrita y cursiva: Ambas tablas tienen letras en negrita, solo la
+	segunda tiene letras en cursiva cuando el stock de un producto en inventario es 0.
+
+	Filas de diferente color: Se ha seleccionado una fila de un color diferente para la
+	cabecera de las tablas. Ademas hay incluido un sistema de filtrado por colores que
+	determina la cantidad en stock de un producto basado en su porcentaje. El codigo
+	de colores es el siguiente:
+		- Negro = 0 unidades
+		- Rojo = 1 - 25% (no inclusive)
+		- Amarillo = 25% (inclusive) - 50% (no inclusive)
+		- Verde = 50% (inclusive) - 75% (no inlcusive)
+		- Azul = Superior al 75% de stock inclusive
+	Esto se ha logrado con un Choose
+
+	Se ha realizado una ordenacion por orden alfabetico a partir del tipo de objeto (atributo)
+
+	Sentencias value-of y text: Se ha usado mucho value-of a lo largo del ejercicio
+
+	Text: Usado al final, no le encontre un uso real, asi que lo utilice un poco como relleno
+	al final agregando un par de lineas mas XML para nuevos proyectos, y haciendo un "listado"
+
+	Atributos: Se ha trabajado con atributos, como en el ejemplo anterior.
+
+	Bucles: Muchos bucles utilizados.
+
+	Condiciones if: Otro par utilizado, por ejemplo al final del documento.
+
+	Choose: Tambien usados unos cuantos, como por ejemplo para seleccionar los colores de las tablas.
+
+	Plantillas: Se han usado bastantes plantillas para aplicar diferentes valores, en concreto el
+	calculo de el coste de reposicion es un buen ejemplo.
+
+	
+	EXTRAS pedidos:
+	
+	Listas: Hechas listas en la primera tabla de proyectos, para la lista de materiales y herramientas
+	necesarias
+
+	Uso de Count: Usado una vez para contar todos los distintos elementos que contiene el inventario,
+	es decir, todos los elementos objeto.
+
+	Uso de CONCAT, usado una unica vez, en un caso condicional en la primera tabla, linea 193 xsl.
+	Se usa para unir varios elementos, junto con texto, en caso de que el objeto sea un tornillo.
+
+
+	Algo mas habra por ahi
