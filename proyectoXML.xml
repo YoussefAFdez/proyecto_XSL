@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taller>
+	<proyecto>
+		<nombre>Mesa de trabajo</nombre>
+		<listaMateriales>
+			<material>
+				<tipo>material</tipo>
+				<nombre>Tablon de madera</nombre>
+				<cantidad>6</cantidad>
+			</material>
+			<material>
+				<tipo>tornillos</tipo>
+				<nombre>Philipps</nombre>
+				<cantidad>24</cantidad>
+				<tamanio>6</tamanio>
+			</material>
+			<material>
+				<tipo>material</tipo>
+				<nombre>Liston de madera</nombre>
+				<cantidad>4</cantidad>
+			</material>
+		</listaMateriales>
+		<herramientasNecesarias>
+			<nomHerramienta>Sierra</nomHerramienta>
+			<nomHerramienta>Cola para madera</nomHerramienta>
+			<nomHerramienta>Destornillador Philipps. Tam 6</nomHerramienta>
+			<nomHerramienta>Martillo</nomHerramienta>
+		</herramientasNecesarias>
+		<precioVenta moneda="euro">150</precioVenta>
+	</proyecto>
+		<proyecto>
+		<nombre>Reparacion movil</nombre>
+		<listaMateriales>
+			<material>
+				<tipo>material</tipo>
+				<nombre>Pantalla</nombre>
+				<cantidad>1</cantidad>
+			</material>
+			<material>
+				<tipo>material</tipo>
+				<nombre>Bateria</nombre>
+				<cantidad>1</cantidad>
+			</material>
+			<material>
+				<tipo>tornillo</tipo>
+				<nombre>Torx Seguridad</nombre>
+				<cantidad>4</cantidad>
+				<tamanio>2</tamanio>
+			</material>
+		</listaMateriales>
+		<herramientasNecesarias>
+			<nomHerramienta>Destornillador Philipps. Tam 2</nomHerramienta>
+			<nomHerramienta>Ventosa</nomHerramienta>
+			<nomHerramienta>Calentador</nomHerramienta>
+		</herramientasNecesarias>
+		<precioVenta moneda="euro">70</precioVenta>
+	</proyecto>
+		<proyecto>
+		<nombre>Controlador</nombre>
+		<listaMateriales>
+			<material>
+				<tipo>tornillo</tipo>
+				<nombre>Torx Seguridad</nombre>
+				<cantidad>26</cantidad>
+				<tamanio>2</tamanio>
+			</material>
+			<material>
+				<tipo>material</tipo>
+				<nombre>Microcontrolador</nombre>
+				<cantidad>2</cantidad>
+			</material>
+			<material>
+				<tipo>material</tipo>
+				<nombre>Tablon de madera</nombre>
+				<cantidad>2</cantidad>
+			</material>
+		</listaMateriales>
+		<herramientasNecesarias>
+			<nomHerramienta>Destornillador Torx Seguridad. Tam 2</nomHerramienta>
+			<nomHerramienta>Estacion de soldadura</nomHerramienta>
+			<nomHerramienta>Martillo</nomHerramienta>
+			<nomHerramienta>Cola para madera</nomHerramienta>
+		</herramientasNecesarias>
+		<precioVenta moneda="euro">45</precioVenta>
+	</proyecto>
+	<inventario>
+		<objeto tipo="tornillos">
+			<nombre>Philipps</nombre>
+			<unidades>178</unidades>
+			<cantidadMax>200</cantidadMax>
+			<precioUnidad>0.05</precioUnidad>
+			<tamanio>6</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Philipps</nombre>
+			<unidades>53</unidades>
+			<cantidadMax>200</cantidadMax>
+			<precioUnidad>0.03</precioUnidad>
+			<tamanio>2</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Plano</nombre>
+			<unidades>78</unidades>
+			<cantidadMax>140</cantidadMax>
+			<precioUnidad>0.05</precioUnidad>
+			<tamanio>6</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Plano</nombre>
+			<unidades>0</unidades>
+			<cantidadMax>140</cantidadMax>
+			<precioUnidad>0.04</precioUnidad>
+			<tamanio>2</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Torx</nombre>
+			<unidades>35</unidades>
+			<cantidadMax>100</cantidadMax>
+			<precioUnidad>0.07</precioUnidad>
+			<tamanio>6</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Torx</nombre>
+			<unidades>66</unidades>
+			<cantidadMax>110</cantidadMax>
+			<precioUnidad>0.06</precioUnidad>
+			<tamanio>2</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Torx Seguridad</nombre>
+			<unidades>35</unidades>
+			<cantidadMax>70</cantidadMax>
+			<precioUnidad>0.10</precioUnidad>
+			<tamanio>6</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Torx Seguridad</nombre>
+			<unidades>21</unidades>
+			<cantidadMax>80</cantidadMax>
+			<precioUnidad>0.08</precioUnidad>
+			<tamanio>2</tamanio>
+		</objeto>
+		<objeto tipo="materiales">
+			<nombre>Tablon de madera</nombre>
+			<cantidad>23</cantidad>
+			<cantidadMax>50</cantidadMax>
+			<precioUnidad>4.50</precioUnidad>
+		</objeto>
+		<objeto tipo="materiales">
+			<nombre>Liston de madera</nombre>
+			<cantidad>17</cantidad>
+			<cantidadMax>40</cantidadMax>
+			<precioUnidad>7.30</precioUnidad>
+		</objeto>
+		<objeto tipo="materiales">
+			<nombre>Pantalla</nombre>
+			<cantidad>2</cantidad>
+			<cantidadMax>10</cantidadMax>
+			<precioUnidad>20.40</precioUnidad>
+		</objeto>
+		<objeto tipo="materiales">
+			<nombre>Microcontrolador</nombre>
+			<cantidad>7</cantidad>
+			<cantidadMax>25</cantidadMax>
+			<precioUnidad>13.20</precioUnidad>
+		</objeto>
+		<objeto tipo="materiales">
+			<nombre>Cable</nombre>
+			<cantidad>120</cantidad>
+			<cantidadMax>300</cantidadMax>
+			<precioUnidad>0.15</precioUnidad>
+		</objeto>
+		<objeto tipo="materiales">
+			<nombre>Bateria</nombre>
+			<cantidad>15</cantidad>
+			<cantidadMax>20</cantidadMax>
+			<precioUnidad>10.10</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Tijeras electricista</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>7.80</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Cinta Aislante</nombre>
+			<unidades>2</unidades>
+			<precioUnidad>2.30</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Philipps. Tam 2</nombre>
+			<unidades>2</unidades>
+			<precioUnidad>1.80</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Philipps. Tam 6</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>2.70</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Plano. Tam 2</nombre>
+			<unidades></unidades>
+			<precioUnidad></precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Plano. Tam 6</nombre>
+			<unidades>2</unidades>
+			<precioUnidad>3.60</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Torx. Tam 2</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>5.40</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Torx. Tam 6</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>5.70</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Torx Seguridad. Tam 2</nombre>
+			<unidades></unidades>
+			<precioUnidad>6.40</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Destornillador Torx Seguridad. Tam 6</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>6.90</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Estacion soldadura</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>45.50</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Cola para madera</nombre>
+			<unidades>3</unidades>
+			<precioUnidad>6.25</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Sierra</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>12.30</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Martillo</nombre>
+			<unidades>1</unidades>
+			<precioUnidad>7.80</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Ventosa</nombre>
+			<unidades>0</unidades>
+			<precioUnidad>3.40</precioUnidad>
+		</objeto>
+		<objeto tipo="herramientas">
+			<nombre>Calentador</nombre>
+			<unidades>0</unidades>
+			<precioUnidad>15.70</precioUnidad>
+		</objeto>
+	</inventario>
+</taller>
