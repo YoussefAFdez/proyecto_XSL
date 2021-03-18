@@ -1,0 +1,11 @@
+Se quiere hacer una pequenia base de datos que almacene informacion sobre los recursos de los que disponemos.
+Se quiere tambien almacenar informacion sobre los posibles proyectos que se pueden realizar, junto con los materiales necesarios y otros datos.
+Se quiere mostrar todo en diversas tablas.
+Se quiere indicar mediante un codigo de colores la cantidad restante de cierto material de la siguiente manera:
+  - Por encima del 75%: Azul. Condicion optima de materiales
+  - Por encima del 50% pero debajo del 75%: Verde. Bastantes materiales, no es necesario comprar.
+  - Por debajo del 50% pero por encima del 25%: Amarillo. Escasez de materiales, se recomienda comprar.
+  - Por debajo del 25%: Rojo. Nivel de materiales critico, hay que reabastecer.
+  - Cantidad = 0: Negro. No quedan existencias del material o herramienta.
+Se quiere hacer una estimacion del coste total de reabastecimiento de cada material.
+Se quiere calcular el coste total de los materiales para un proyecto determinado y extraer el beneficio de ellos.
