@@ -1,89 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet type="text/xsl" href="proyectoXML.xsl"?>
 <taller>
-	<proyecto>
-		<nombre>Mesa de trabajo</nombre>
-		<listaMateriales>
-			<material>
-				<tipo>material</tipo>
-				<nombre>Tablon de madera</nombre>
-				<cantidad>6</cantidad>
-			</material>
-			<material>
-				<tipo>tornillos</tipo>
-				<nombre>Philipps</nombre>
-				<cantidad>24</cantidad>
-				<tamanio>6</tamanio>
-			</material>
-			<material>
-				<tipo>material</tipo>
-				<nombre>Liston de madera</nombre>
-				<cantidad>4</cantidad>
-			</material>
-		</listaMateriales>
-		<herramientasNecesarias>
-			<nomHerramienta>Sierra</nomHerramienta>
-			<nomHerramienta>Cola para madera</nomHerramienta>
-			<nomHerramienta>Destornillador Philipps. Tam 6</nomHerramienta>
-			<nomHerramienta>Martillo</nomHerramienta>
-		</herramientasNecesarias>
-		<precioVenta moneda="euro">150</precioVenta>
-	</proyecto>
+	<proyectos>
 		<proyecto>
-		<nombre>Reparacion movil</nombre>
-		<listaMateriales>
-			<material>
-				<tipo>material</tipo>
-				<nombre>Pantalla</nombre>
-				<cantidad>1</cantidad>
-			</material>
-			<material>
-				<tipo>material</tipo>
-				<nombre>Bateria</nombre>
-				<cantidad>1</cantidad>
-			</material>
-			<material>
-				<tipo>tornillo</tipo>
-				<nombre>Torx Seguridad</nombre>
-				<cantidad>4</cantidad>
-				<tamanio>2</tamanio>
-			</material>
-		</listaMateriales>
-		<herramientasNecesarias>
-			<nomHerramienta>Destornillador Philipps. Tam 2</nomHerramienta>
-			<nomHerramienta>Ventosa</nomHerramienta>
-			<nomHerramienta>Calentador</nomHerramienta>
-		</herramientasNecesarias>
-		<precioVenta moneda="euro">70</precioVenta>
-	</proyecto>
+			<nombre>Mesa de trabajo</nombre>
+			<descripcion>Construccion de una mesa de trabajo simple hecha de madera.</descripcion>
+			<listaMateriales>
+				<material>
+					<tipo>material</tipo>
+					<nombre>Tablon de madera</nombre>
+					<cantidad>6</cantidad>
+				</material>
+				<material>
+					<tipo>tornillos</tipo>
+					<nombre>Philipps</nombre>
+					<cantidad>24</cantidad>
+					<tamanio>6</tamanio>
+				</material>
+				<material>
+					<tipo>material</tipo>
+					<nombre>Liston de madera</nombre>
+					<cantidad>4</cantidad>
+				</material>
+			</listaMateriales>
+			<herramientasNecesarias>
+				<nomHerramienta>Sierra</nomHerramienta>
+				<nomHerramienta>Cola para madera</nomHerramienta>
+				<nomHerramienta>Destornillador Philipps. Tam 6</nomHerramienta>
+				<nomHerramienta>Martillo</nomHerramienta>
+			</herramientasNecesarias>
+			<precioVenta moneda=" euros">150</precioVenta>
+			<imagen>mesa.jpg</imagen>
+		</proyecto>
 		<proyecto>
-		<nombre>Controlador</nombre>
-		<listaMateriales>
-			<material>
-				<tipo>tornillo</tipo>
-				<nombre>Torx Seguridad</nombre>
-				<cantidad>26</cantidad>
-				<tamanio>2</tamanio>
-			</material>
-			<material>
-				<tipo>material</tipo>
-				<nombre>Microcontrolador</nombre>
-				<cantidad>2</cantidad>
-			</material>
-			<material>
-				<tipo>material</tipo>
-				<nombre>Tablon de madera</nombre>
-				<cantidad>2</cantidad>
-			</material>
-		</listaMateriales>
-		<herramientasNecesarias>
-			<nomHerramienta>Destornillador Torx Seguridad. Tam 2</nomHerramienta>
-			<nomHerramienta>Estacion de soldadura</nomHerramienta>
-			<nomHerramienta>Martillo</nomHerramienta>
-			<nomHerramienta>Cola para madera</nomHerramienta>
-		</herramientasNecesarias>
-		<precioVenta moneda="euro">45</precioVenta>
-	</proyecto>
+			<nombre>Reparacion movil</nombre>
+			<descripcion>Reparacion de pantallas de moviles y recambio de baterias.</descripcion>
+			<listaMateriales>
+				<material>
+					<tipo>material</tipo>
+					<nombre>Pantalla</nombre>
+					<cantidad>1</cantidad>
+				</material>
+				<material>
+					<tipo>material</tipo>
+					<nombre>Bateria</nombre>
+					<cantidad>1</cantidad>
+				</material>
+				<material>
+					<tipo>tornillos</tipo>
+					<nombre>Torx Seguridad</nombre>
+					<cantidad>4</cantidad>
+					<tamanio>2</tamanio>
+				</material>
+			</listaMateriales>
+			<herramientasNecesarias>
+				<nomHerramienta>Destornillador Philipps. Tam 2</nomHerramienta>
+				<nomHerramienta>Ventosa</nomHerramienta>
+				<nomHerramienta>Calentador</nomHerramienta>
+			</herramientasNecesarias>
+			<precioVenta moneda=" euros">70</precioVenta>
+			<imagen>movil.jpg</imagen>
+		</proyecto>
+		<proyecto>
+			<nombre>Controlador</nombre>
+			<descripcion>Montaje de un microcontrolador o pc que te hara la vida mas sencilla!</descripcion>
+			<listaMateriales>
+				<material>
+					<tipo>tornillos</tipo>
+					<nombre>Torx Seguridad</nombre>
+					<cantidad>26</cantidad>
+					<tamanio>2</tamanio>
+				</material>
+				<material>
+					<tipo>material</tipo>
+					<nombre>Microcontrolador</nombre>
+					<cantidad>2</cantidad>
+				</material>
+				<material>
+					<tipo>material</tipo>
+					<nombre>Tablon de madera</nombre>
+					<cantidad>2</cantidad>
+				</material>
+			</listaMateriales>
+			<herramientasNecesarias>
+				<nomHerramienta>Destornillador Torx Seguridad. Tam 2</nomHerramienta>
+				<nomHerramienta>Estacion de soldadura</nomHerramienta>
+				<nomHerramienta>Martillo</nomHerramienta>
+				<nomHerramienta>Cola para madera</nomHerramienta>
+			</herramientasNecesarias>
+			<precioVenta moneda=" dolares">45</precioVenta>
+			<imagen>arduino.jpg</imagen>
+		</proyecto>
+	</proyectos>
 	<inventario>
 		<objeto tipo="tornillos">
 			<nombre>Philipps</nombre>
@@ -143,37 +151,37 @@
 		</objeto>
 		<objeto tipo="materiales">
 			<nombre>Tablon de madera</nombre>
-			<cantidad>23</cantidad>
+			<unidades>23</unidades>
 			<cantidadMax>50</cantidadMax>
 			<precioUnidad>4.50</precioUnidad>
 		</objeto>
 		<objeto tipo="materiales">
 			<nombre>Liston de madera</nombre>
-			<cantidad>17</cantidad>
+			<unidades>17</unidades>
 			<cantidadMax>40</cantidadMax>
 			<precioUnidad>7.30</precioUnidad>
 		</objeto>
 		<objeto tipo="materiales">
 			<nombre>Pantalla</nombre>
-			<cantidad>2</cantidad>
+			<unidades>2</unidades>
 			<cantidadMax>10</cantidadMax>
 			<precioUnidad>20.40</precioUnidad>
 		</objeto>
 		<objeto tipo="materiales">
 			<nombre>Microcontrolador</nombre>
-			<cantidad>7</cantidad>
+			<unidades>7</unidades>
 			<cantidadMax>25</cantidadMax>
 			<precioUnidad>13.20</precioUnidad>
 		</objeto>
 		<objeto tipo="materiales">
 			<nombre>Cable</nombre>
-			<cantidad>120</cantidad>
+			<unidades>120</unidades>
 			<cantidadMax>300</cantidadMax>
 			<precioUnidad>0.15</precioUnidad>
 		</objeto>
 		<objeto tipo="materiales">
 			<nombre>Bateria</nombre>
-			<cantidad>15</cantidad>
+			<unidades>15</unidades>
 			<cantidadMax>20</cantidadMax>
 			<precioUnidad>10.10</precioUnidad>
 		</objeto>
@@ -199,8 +207,8 @@
 		</objeto>
 		<objeto tipo="herramientas">
 			<nombre>Destornillador Plano. Tam 2</nombre>
-			<unidades></unidades>
-			<precioUnidad></precioUnidad>
+			<unidades>1</unidades>
+			<precioUnidad>3.25</precioUnidad>
 		</objeto>
 		<objeto tipo="herramientas">
 			<nombre>Destornillador Plano. Tam 6</nombre>
@@ -219,7 +227,7 @@
 		</objeto>
 		<objeto tipo="herramientas">
 			<nombre>Destornillador Torx Seguridad. Tam 2</nombre>
-			<unidades></unidades>
+			<unidades>1</unidades>
 			<precioUnidad>6.40</precioUnidad>
 		</objeto>
 		<objeto tipo="herramientas">
