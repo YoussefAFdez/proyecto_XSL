@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="proyectoXML.xsl"?>
 <taller>
+	<nombre>El taller de Yuu</nombre>
 	<proyectos>
 		<proyecto>
 			<nombre>Mesa de trabajo</nombre>
@@ -31,6 +32,31 @@
 			</herramientasNecesarias>
 			<precioVenta moneda=" euros">150</precioVenta>
 			<imagen>mesa.jpg</imagen>
+		</proyecto>
+		<proyecto>
+			<nombre>Soporte Telefono</nombre>
+			<descripcion>Un soporte para el telefono de lo mas molon</descripcion>
+			<listaMateriales>
+				<material>
+					<tipo>material</tipo>
+					<nombre>Tablon de madera</nombre>
+					<cantidad>2</cantidad>
+				</material>
+				<material>
+					<tipo>tornillos</tipo>
+					<nombre>Philipps</nombre>
+					<cantidad>8</cantidad>
+					<tamanio>6</tamanio>
+				</material>
+			</listaMateriales>
+			<herramientasNecesarias>
+				<nomHerramienta>Sierra</nomHerramienta>
+				<nomHerramienta>Cola para madera</nomHerramienta>
+				<nomHerramienta>Destornillador Philipps. Tam 6</nomHerramienta>
+				<nomHerramienta>Martillo</nomHerramienta>
+			</herramientasNecesarias>
+			<precioVenta moneda=" euros">12</precioVenta>
+			<imagen>soporte.jpg</imagen>
 		</proyecto>
 		<proyecto>
 			<nombre>Reparacion movil</nombre>
@@ -120,6 +146,13 @@
 			<cantidadMax>140</cantidadMax>
 			<precioUnidad>0.04</precioUnidad>
 			<tamanio>2</tamanio>
+		</objeto>
+		<objeto tipo="tornillos">
+			<nombre>Plano</nombre>
+			<unidades>80</unidades>
+			<cantidadMax>150</cantidadMax>
+			<precioUnidad>0.14</precioUnidad>
+			<tamanio>4</tamanio>
 		</objeto>
 		<objeto tipo="tornillos">
 			<nombre>Torx</nombre>
@@ -266,4 +299,9 @@
 			<precioUnidad>15.70</precioUnidad>
 		</objeto>
 	</inventario>
+	<futurosProyectos>
+		<nombre>Arreglo discos duros</nombre>
+		<nombre>Impresion figuras 3D</nombre>
+		<nombre>Instalacion de protectores de pantallas</nombre>
+	</futurosProyectos>
 </taller>
